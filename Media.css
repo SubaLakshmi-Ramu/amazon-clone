@@ -1,0 +1,379 @@
+@media (min-width:320px) and (max-width:480px) {
+
+    html,
+    body {
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .header-1 {
+        text-align: center;
+    }
+
+    .location {
+        display: none;
+    }
+
+    .back-img-box {
+        text-align: center;
+    }
+
+    .back-img-box h2 {
+        text-align: center;
+    }
+
+    .offer-ims .box-model {
+        margin-top: -5px;
+    }
+
+    .today-deals {
+        margin-top: -44px;
+    }
+
+    .box-model .atag {
+        padding: 13px 0px 16px;
+    }
+
+    .today-deals .split .col-lg-2 {
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    .beauty-products {
+        margin-top: 8px;
+    }
+
+    .today-deals .split h2 {
+        /* margin: 0rem 0rem 3rem; */
+        text-align: center;
+        padding-left: 0px;
+
+    }
+
+    .beauty-products .container-fluid .beauty h2 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .girls-imgs .container-fluid .girl h2 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .new-collection .container-fluid .collection h2 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .new-collection .container-fluid .collection h2 {
+        font-size: 24px;
+        padding: 2rem 1rem;
+
+    }
+
+    .one-shoe .container .row {
+        text-align: center;
+        padding: 12px;
+    }
+
+    .one-shoe .container .col-lg-8 .last-shoe {
+        display: block;
+        text-align: center !important;
+        padding: 0rem 0rem 2rem;
+    }
+
+    .last-collection .container-fluid .last-elephant h2 {
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .last-logo ul {
+        margin-left: -2rem;
+        font-size: 14px;
+    }
+
+    .copyright span {
+        font-size: 14px;
+    }
+
+    .copyright .container ul {
+        font-size: 14px;
+        margin-left: -2rem;
+    }
+
+    .box .atag {
+        padding: 5px 0px 0px;
+    }
+
+    .loc-icon {
+        display: none;
+    }
+
+    .head-search i {
+        display: none;
+    }
+
+    .header-1 .col-lg-3 {
+        margin-top: 29px;
+    }
+
+    .dropdown-1 {
+        margin-left: -1rem;
+    }
+
+    .playstore-img {
+        display: none;
+    }
+
+    .ind-flag {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .head-address {
+        display: block !important;
+        margin-bottom: 21px;
+    }
+
+    .cartimg {
+        height: 40px;
+        width: 40px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+
+    .header-2 .col-lg-8 {
+        text-align: center;
+    }
+
+    .banner {
+        height: 170px;
+        min-width: 300px;
+        display: block;
+    }
+
+    .offer-ims {
+        margin-top: 1420px;
+    }
+
+    .row {
+        flex-direction: column !important;
+    }
+
+    .box-model .container-fluid .row {
+        flex-direction: row;
+    }
+
+    .one-shoe .container .col-lg-8 h2 {
+        margin-top: -42px;
+        font-size: 22px;
+        font-weight: 700;
+        padding: 3px;
+    }
+    .banner .trash{
+        display: none;
+    }
+    .waste {
+        display: block;
+    }
+}
+
+
+
+/* =============================    MEDIDA QUERY    (min-width:481px) and (max-width:768px)  =>>   ======================================== */
+
+
+
+@media (min-width:481px) and (max-width:768px) {
+ 
+    html,
+    body {
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    .header-1 {
+        text-align: center;
+    }
+
+    .loc-icon i {
+        display: none;
+    }
+
+    .head-search i {
+        display: none;
+    }
+
+    .header-1 .col-lg-3 {
+        margin-top: 29px;
+    }
+
+    .playstore-img {
+        display: none;
+    }
+
+    .ind-flag {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .head-address {
+        display: block !important;
+        margin-bottom: 21px;
+    }
+
+    .back-img-box {
+        text-align: center;
+    }
+
+    .back-img-box h2 {
+        text-align: center;
+        padding: 2rem 3rem;
+    
+    }
+    .offer-ims .box-model {
+        margin-top: -5px;
+    }
+   
+    .today-deals {
+        margin-top: -44px;
+    }
+
+    .box-model .atag {
+        padding: 13px 0px 16px;
+    }
+
+    .today-deals .split .col-lg-2 {
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    .beauty-products {
+        margin-top: 8px;
+    }
+
+    .today-deals .split h2 {
+        /* margin: 0rem 0rem 3rem; */
+        text-align: center;
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    .beauty-products .container-fluid .beauty h2 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .girls-imgs .container-fluid .girl h2 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .new-collection .container-fluid .collection h2 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .new-collection .container-fluid .collection h2 {
+        font-size: 24px;
+        padding: 2rem 1rem;
+
+    }
+
+    .one-shoe .container .row {
+        text-align: center;
+        padding: 12px;
+    }
+
+    .one-shoe .container .col-lg-8 .last-shoe {
+        display: block;
+        text-align: center !important;
+        padding: 0rem 0rem 2rem;
+    }
+
+    .last-collection .container-fluid .last-elephant h2 {
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .last-logo ul {
+        margin-left: -2rem;
+        font-size: 14px;
+    }
+
+    .copyright span {
+        font-size: 14px;
+    }
+
+    .copyright .container ul {
+        font-size: 14px;
+        margin-left: -2rem;
+    }
+    
+    .cartimg {
+        height: 40px;
+        width: 40px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+
+    .header-2 .col-lg-8 {
+        text-align: center;
+    }
+
+    .banner {
+        height: 370px;
+        min-width: 300px;
+        display: block;
+    }
+
+    .offer-ims {
+        margin-top: 1380px;
+    }
+
+    .banner .row {
+        flex-wrap: wrap;
+    }
+
+    .offer-ims .row {
+        flex-wrap: wrap;
+    }
+
+    .offers-2 {
+        text-align: center;
+    }
+    .offers-2 .container-fluid .row{
+        /* flex-wrap:nowrap;
+        gap: 10px; 
+        margin-left: 5px!important; 
+        margin-right: 5px!important; */
+        flex-wrap: wrap; 
+    }
+    .last-offer {
+        display: none;
+    }
+
+    .one-shoe .col-lg-4 {
+        text-align: center;
+    }
+
+    .one-shoe .container .col-lg-8 .last-shoe {
+        margin-bottom: 40px;
+    }
+
+    .one-shoe .container .col-lg-8 h2 {
+        margin-top: -42px;
+        font-size: 22px;
+        font-weight: 700;
+        padding: 3px;
+    }
+
+    .contact .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .waste {
+        display: block;
+    }
+}

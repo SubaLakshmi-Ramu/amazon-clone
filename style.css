@@ -1,0 +1,813 @@
+
+html{
+    scroll-behavior: smooth;
+}
+html,
+body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+body{
+    font-family: "Amazon Ember",Arial,sans-serif;
+    background-color: #bbb6b6!important;
+    overflow-x: hidden
+}
+.header-1{
+    background:#0F1111;
+}
+.header-1 .logo{
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.loc-icon i{
+    color: #fff;
+    margin-left: 15px;
+    padding-right: 3px;
+    margin-top: 20px;
+}
+.location{
+    font-size: 12px;
+    padding-top: 10px;
+    margin-right: 25px;
+    padding-right: 5px;
+    padding-left: 8px;
+}
+.location span{
+    color: #d6d6d6;
+    margin-top: 4px;
+}
+.location h6{
+    color: #fff;
+}
+.head-search{
+    margin-top: 17px;
+    background: #febd69;
+    border-radius: 3px;
+}
+.head-search input{
+    height: 45px;
+    width: 90%;
+    padding-left: 22px;
+    border-radius: 2px;
+    border: 0px;
+}
+.head-search i{
+    padding-left: 13px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.ind-flag {
+    margin-top: 20px;
+}
+.ind-flag .india{
+    height: 19px;
+    width: 25px;
+    padding-right: 3px;
+
+}
+.ind-flag span{
+    color: #fff;
+    cursor: pointer;
+}
+.dropdown{
+    list-style: none;
+    background: #cacadb;
+    color: black;
+    width: 150px;
+    display: none;
+    border-radius: 4px;
+    z-index: 2;
+}
+.dropdown li{
+    padding: 5px;
+    cursor: pointer;
+    list-style-type: square;
+}
+.dropdown li:hover{
+    color:#e7233d;
+    list-style-type: square;
+    text-decoration: underline;
+}
+.dropdown-1{
+    background: #cacadb;
+    color: black;
+    list-style: none;
+    width: 345px;
+    position: absolute;
+    border-radius: 4px;
+    z-index: 2;
+    display: none;
+    border: 1px solid grey;
+}
+.dropdown-1  button{
+    background: #ffe093;
+    border: 1px solid #cf970a;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.dropdown-1 h5{
+    font-size: 15px
+}
+.dropdown-1 span{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.dropdown-1 .box{
+    background: #cacadb;
+}
+.dropdown-1 .box h6{
+    color: black;
+    font-size: 14px;
+    margin-left: 40px;
+}
+.dropdown-1 .box ul{
+    list-style: none;
+}
+.dropdown-1 .box ul li a{
+    color: grey;
+}
+.dropdown-1 .box ul li{  
+      padding: 3px;
+}
+.dropdown li:hover{
+    text-decoration: underline;
+}
+.dropdown-1 .box  li:hover{
+    color:#e7233d;
+}
+.signup:hover .dropdown-1{
+    display: block;
+}
+.ind-flag:hover .dropdown{
+        display: block;
+        position: fixed;
+        list-style-type: square;
+}
+
+.signup{
+    margin-left: 20px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.location:hover{
+    cursor: pointer;
+}
+.loc-icon:hover{
+    cursor: pointer;
+}
+.ind-flag:hover{  
+    cursor: pointer;
+}
+
+.order .location:hover{
+    cursor: pointer;
+}
+.signup .location:hover{
+     cursor: pointer;
+}
+
+.cartimg:hover{
+    cursor: pointer;
+}
+.cartimg{
+    height: 80px;
+    width: 100px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* header-1 end */
+
+/* header-2   st */
+
+.header-2{
+    overflow-x: hidden;
+    background: #232f3e;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    background-color: #98aba8;
+    cursor: pointer;
+    margin: 0px 0px 0px 20px;
+}
+.header-2 .container-fluid{
+    margin-left: -1.2rem;
+    
+}
+.header-2 nav{
+    list-style: none;
+    color: #fff!important;    
+    background: #232f3e;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff!important;    
+
+}
+.header-2 li{
+    padding-left: 3px;
+    display: inline-block;
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding-right: 3px;
+}
+.header-2 li a{
+    text-decoration: none;
+    color: white;
+}
+.playstore-img{
+    padding-top: 15px;
+    cursor: pointer;
+}
+.header-2 li:hover{
+    border: 1px solid #fff;   
+}
+.playstore-img:hover{
+    border: 2px solid #fff;
+}
+/* header-2 end */
+
+/* =============   background-img  st  ================ */
+.banner{
+    background-image: url(./bg-img.jpg);
+    height: 529px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+.banner .row{
+    flex-wrap:nowrap;
+    gap: 10px; 
+    margin-left: 5px!important; 
+    margin-right: 5px!important; 
+    position: relative; 
+    overflow-x: hidden!important;
+    top: 46%;
+}
+.box{
+    background: #fff;
+    padding: 10px;
+}
+.box a span{
+    text-decoration: #0F1111;
+}
+.back-img-box{
+    padding: 10px;
+}
+.back-img-box .more{
+    margin-top: 45px;
+    font-size: 14px;
+}
+.back-img-box .more a{
+    color: #007185;
+}
+.back-img-1{
+    height: 225px;
+    background-repeat: no-repeat;
+}
+.back-img-box h2{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #0F1111;
+}
+.back .box-img{
+    max-width: 100%;
+    height: 100px;
+    padding-top: 12px;
+}
+.back span{
+    font-size: 12px;
+    line-height: 18px;
+    color: #0F1111;
+    margin-bottom: 10px;
+}
+
+.box .atag{
+    margin-top: 12px;
+    font-size: 13px;
+}
+.box .atag a{
+    color: #007185;
+}
+.box .Sign-in{
+    text-align: center;
+}
+.box .Sign-in button{
+    background: #FFD814;
+    border-color: #FCD200;
+    height: 36px;
+    width: 203px;
+    border-radius: 11px;
+    border: none;
+    font-size: 15px;
+}
+
+/* =============   background-img  end  ================ */
+
+/* ======================  offer-ims  st  ===================== */
+
+.offer-ims{
+    background-color: #bbb6b6;
+}
+.offer-ims .row{
+    flex-wrap:nowrap; 
+    gap: 10px;  
+    margin-left: 5px;
+    margin-right: 5px; 
+    position: relative; 
+    overflow-x: hidden!important;; 
+    top: 46%;
+}
+.offer-ims .box-model{
+    background: #fff;
+    padding: 10px;
+    margin-top: 140px;
+   
+}
+.box-model .atag{
+    margin-top: 12px;
+    font-size: 13px;
+    
+}
+.box-model .atag a{
+    color: #007185;
+}
+
+/* ======================  offer-ims  end  ===================== */
+
+/* ======================  today-deals  st  ===================== */
+
+.today-deals{
+    background-color: #bbb6b6;
+}
+.today-deals .container-fluid{
+    margin-top: 50px;
+    padding-left: 20px!important;
+    padding-right: 20px!important ;
+}
+.today-deals .split{
+    background-color: #fff;
+    padding: 20px;
+}
+.today-deals .split h2{
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #0F1111;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+.today-deals .split .day-img{
+    max-width: 100%;
+    height: 180px;
+    border: 1px solid #bbb6b6;
+    padding: 10px;
+    border-radius: 16px;
+}
+.today-deals .split .off{
+    margin-top: 20px;
+}
+.today-deals .split .off a{
+    text-decoration: none;
+}
+.today-deals .split h4{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    background-color: #CC0C39;
+    color: #ffffff;
+    padding: 4px;
+}
+.today-deals .split h5{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    background-color: #ffffff;
+    color:   #CC0C39;
+}
+.today-deals .split span{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    color: black;
+}
+.today-deals .split a{
+    text-decoration: none;
+}
+
+/* ====================== today-deals  end  ===================== */
+
+
+/* ====================== beauty-products  st  ===================== */
+
+.beauty-products{
+    margin-top: 20px;
+
+}
+.beauty-products .container-fluid{
+    padding-left: 20px!important;
+    padding-right: 20px!important ;
+
+}
+.beauty-products .container-fluid .beauty{
+    background: #fff;
+}
+.beauty-products .container-fluid .beauty h2{
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #0F1111;
+    padding-top: 35px;
+    padding-left: 40px;
+} 
+
+.beauty-products .cream-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-height: 180px;
+    max-width: 67%;
+}
+
+/* ====================== beauty-products  end  ===================== */
+
+/* ====================== girls-imgs  st  ===================== */
+
+.girls-imgs{
+    margin-top: 20px;
+}
+.girls-imgs .container-fluid{
+    padding-left: 20px!important;
+    padding-right: 20px!important ;
+}
+.girls-imgs .container-fluid .girl{
+    background: #fff;
+}
+.girls-imgs .container-fluid .girl h2{
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #0F1111;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.girls-imgs .container-fluid .girl-image{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-height: 180px;
+    max-width: 38%;
+}
+
+/* ====================== girls-imgs  end  ===================== */
+
+/* ====================== offers-2 st  ===================== */
+
+
+.offers-2{
+    overflow-x:hidden!important;
+    margin-top: 20px;
+}
+.offers-2 .container-fluid{
+    /* margin-right: 17px; */
+    overflow-x:hidden!important;
+}
+.offers-2 .container-fluid .row{
+    flex-wrap:nowrap;
+    gap: 10px; 
+    margin-left: 5px!important; 
+    margin-right: 5px!important;
+    flex-wrap: nowrap; 
+}
+
+/* ====================== offers-2  end  ===================== */
+
+/* ====================== shoes  st  ===================== */
+
+.shoes{
+    margin-top: 20px;
+}
+.shoes .container-fluid{
+    padding-left: 20px!important;
+    padding-right: 20px!important ;
+}
+
+.shoes .container-fluid .beauty{
+    background: #fff;
+}
+.shoes .container-fluid .beauty h2{
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #0F1111;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.shoes .shoe-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-height: 180px;
+    max-width: 100%;
+}
+
+
+/* ====================== shoes  end  ===================== */
+
+/* ====================== new-collection  st  ===================== */
+
+.new-collection{
+    margin-top: 20px;
+}
+.new-collection .container-fluid{
+    padding-left: 20px!important;
+    padding-right: 20px!important ;
+}
+.new-collection .container-fluid .collection{
+    background: #fff;
+}
+.new-collection .container-fluid .collection h2{
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #0F1111;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+.new-collection .container-fluid .new-image{
+    padding-right: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* ====================== new-collection  end  ===================== */
+
+
+/* ============================= one-shoe  st  ======================== */
+
+.one-shoe{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.one-shoe .container{
+    background: #fff;
+}
+.one-shoe .container .container-img{
+    max-width: 290px;
+    max-height: 313px;
+    padding-left: 45px;
+}
+.one-shoe .container .col-lg-8 h2{
+    margin-top: 107px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 3px;
+}
+.one-shoe .container .col-lg-8  span{
+    font-size: 23px;
+    color: #CC0C39;
+    font-weight: 700;
+}
+.one-shoe .container .col-lg-8 .last-shoe{
+    display: flex;
+
+}
+.one-shoe .container .col-lg-8 .last-shoe a{
+    text-decoration: none;
+}
+.one-shoe .container .col-lg-8 .last-shoe a h4{
+    background: #CC0C39;
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff
+}
+.one-shoe .container .col-lg-8 .last-shoe span a h5{
+    color: #CC0C39;
+    font-size: 15px;
+    padding: 7px;
+}
+
+/* ============================= one-shoe  end  ======================== */
+
+/* ============================= headset  st  ======================== */
+
+.headset{
+    margin-top: 20px;
+}
+.headset .container-fluid{
+    padding-left: 20px!important;
+    padding-right: 20px!important ;
+}
+.headset .container-fluid .headset-collection{
+    background: #fff;
+}
+.headset .container-fluid .headset-collection h2{
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #0F1111;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+.headset .container-fluid .head-image{
+    padding-right: 19px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 180px;
+}
+
+/* ============================= headset  end  ======================== */
+
+/* ============================= last-offer  st  ======================== */
+.last-offer{
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+.last-offer  .container-fluid .row{
+    flex-wrap:nowrap;
+    gap: 10px; 
+    margin-left: 5px!important; 
+    margin-right: 5px!important;
+    flex-wrap: nowrap; 
+}
+.last-offer  .box .atag{
+    margin-top: 29px;
+    font-size: 13px;
+    
+}
+
+/* ============================= last-offer  end  ======================== */
+
+/* =============================   last-collection  end  ======================== */
+
+.last-collection{
+    margin-top: 20px;
+
+}
+.last-collection .container-fluid{
+    padding-left: 20px!important;
+    padding-right: 20px!important ;
+}
+.last-collection .container-fluid .last-elephant{
+    background: #fff;
+}
+.last-collection .container-fluid .last-elephant h2{
+    font-size: 27px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #0F1111;
+    padding-top: 35px;
+    padding-left: 40px;
+} 
+
+.last-collection .ele-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 200px;
+    max-height: 180px;
+}
+
+/* ============================= last-collection  end  ======================== */
+
+/* ============================= last-sign-in  st  ======================== */
+
+.last-sign-in {
+    background: #fff;
+    margin-top: 20px;
+}
+.last-sign-in  .last-sign{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.last-sign-in  .last-sign .container-fluid{
+    border: 1px solid #e6e1e1;
+    padding: 25px;
+    border-radius: 8px;
+}
+.last-sign-in  .last-sign h4{
+    font-size: 15px;
+}
+.last-sign-in  .last-sign button{
+    background: #ffe093;
+    padding-left: 130px;
+    padding-right: 130px;
+    border: 1px solid #cf970a;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.last-sign-in  .last-sign span{
+    font-size: 14px;
+}
+.last-sign-in  .last-sign span h5{
+    font-size: 15px!important;
+    padding-top: 7px;
+}
+
+/* ============================= last-sign-in  end  ======================== */
+
+/* ============================= contact  st  ======================== */
+
+.back-to-home{
+    background: #37475A;
+    text-align: center;
+}
+.back-to-home a{
+    text-decoration: none;
+}
+.back-to-home .container-fluid{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.back-to-home .container-fluid h5{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+/* .................................................................... */
+
+
+.contact{
+    background: #232F3E;
+}
+
+.contact .last-contact{
+    display: table-cell;
+    padding-top: 60px;
+}
+.contact .last-contact h6{
+    color: white;
+    margin-left: 34px;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.contact .last-contact ul{
+    list-style: none;
+}
+.contact .last-contact ul a li{
+    font-size: 14px;
+    color: #DDD;
+    font-weight: 500;
+}
+.contact hr{
+    background: #7c7c7c;
+}
+/* ........................... */
+
+.last-logo .last-logo-img{
+    max-width: 163px;
+    padding: 25px;
+    border-radius: 35px;
+}
+.last-logo ul{
+    list-style: none;
+}
+.last-logo li{
+    display: inline-block;
+    color: #DDD;
+    padding: 14px;
+}
+/* ....................... */
+
+.copyright{
+    background: #131A22;
+}
+.copyright .container{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.copyright .container ul{
+    list-style: none;
+    
+}
+.copyright .container ul li{
+    display: inline-block;
+    color: #DDD;
+    padding-left: 11px;
+    font-size: 13px;
+}
+.copyright span{
+    color: #DDD;
+    font-size: 13px;
+   
+}
+
+
+/* =============================================================== */
+
